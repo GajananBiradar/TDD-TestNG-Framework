@@ -33,6 +33,12 @@ public class LoginPage {
 	WebElement lnkLogout;
 	
 	
+	//Fake xpath
+	@FindBy(xpath="//*[@id=\"navbarText\"]/ul/li")
+	@CacheLookup
+	WebElement lnkgout;
+	
+	
 	public void setUserName(String uname) 
 	{
 		//txtEmail.sendKeys(uname);
